@@ -1,0 +1,148 @@
+body{
+    text-align: center;
+    background-color: rgb(248, 194, 128);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.title{
+    color:rgb(135, 135, 248)
+}
+
+.nav{
+    background-color: rgb(119, 238, 238);
+    box-shadow: 4rem;
+    
+}
+
+.herat{
+    text-align: center;
+    background-color: #f39d60;
+    margin-top: 10em;
+    padding: 10em;
+}
+
+.city{
+    width: 10px;
+    padding: 20px;
+    background-color: #ecec7f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #daa520;
+    transition: transform 0 4ms;
+}
+.city :hover{
+    background-color: #eecb74;
+}
+
+@keyframes fadeln{
+    from{opacity: 2;}
+    to{opacity: 4;}
+}
+
+.mazar-i-sharif{
+    text-align: center;
+    background-color: #daa520;
+    margin-top: 20em;
+    padding: 20px;
+}
+
+.city{
+    width: 10px;
+    padding: 20px;
+    background-color: #ecec7f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #f78888;
+    transition: transform 0 4ms;
+}
+
+.city :hover{
+    background-color: #eecb74;
+}
+
+@keyframes fadeln{
+    from{opacity: 2;}
+    to{opacity: 4;}
+}
+
+.bamyan{
+    text-align: center;
+    background-color: #f3f363;
+    padding: 20px;
+    width:45%;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px #ecec7f;
+    transition: transform 0.2s;
+    animation: reverse;
+    
+    }
+
+.city{
+    width: 10%;
+    padding: 20px;
+    background-color: #f39d60;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #f78888;
+    transition: transform 0 4s;
+
+}
+.city :hover{
+    background-color: #f78888;
+}
+
+@keyframes fadeln{
+    from{opacity: 2;}
+    to{opacity: 4;}
+}
+
+.kabul{
+    text-align: center;
+    padding: 10px;
+    background-color: #f3f363;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #eecb74 ;
+    transition: transform 0 2ms;
+
+}
+
+.city{
+    width: 10px;
+    padding: 20px;
+}
+.city :hover{
+    background-color: #f39d60;
+}
+ 
+@keyframes fadeln{
+    from{opacity: 2;}
+    to{opacity: 4;}
+}
+.submit-button{
+    padding: 10px;
+    background-color: aquamarine;
+    border: none;
+    color: beige;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover{
+    background-color: beige;
+
+}
+
+@keyframes fadeln{
+    from{opacity: 1;}
+    to{opacity: 2;}
+
+}
+
+textarea{
+    background-color: rgb(196, 247, 114);
+    box-shadow: black;
+    box-sizing: border-box;
+    border-width: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #ecec7f;
+}
